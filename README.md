@@ -48,7 +48,7 @@ working_folder/
 
 ## 🔁 Full Font Modding Workflow with Both Tools
 
-### 1️⃣ Extract RAW Font From Game EXE
+### 1️⃣ Extract RAW Font From unprotected Game EXE
 
 - Run `font_packer.py`
 - Click:

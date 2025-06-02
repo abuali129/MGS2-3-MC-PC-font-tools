@@ -22,6 +22,7 @@ Also required:
 - **7-Zip (`7z.exe`)** – Used for GZIP compression/decompression  
   - [Download 7-Zip](https://www.7-zip.org/)
   - Ensure it is added to your system PATH or located in `C:\Program Files\7-Zip`
+  - steamless https://github.com/atom0s/Steamless to remove protection from the exe
 
 ---
 

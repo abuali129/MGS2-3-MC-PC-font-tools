@@ -1,4 +1,4 @@
-# MGSHD Font Toolchain for RAW Font Modding  
+# MGS2 & 3 Font Tools for RAW Font Modding  
 ## (RAW Font Packer + TTF-to-TGA Converter)
 
 This guide and toolchain allows you to **extract, modify, generate, repack, and re-import** RAW font files used in the *Metal Gear Solid HD Collection* games (MGS2 and MGS3). It combines two tools:

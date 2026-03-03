@@ -213,12 +213,12 @@ def compress_with_7z(raw_file_path, gz_file_path):
         return False
 
 def run_extractmgs2_gzip():
-    extract_gzip_from_file('METAL GEAR SOLID2.exe', 'MGS_Font_nht.raw.gz', 8725008, 969470)
+    extract_gzip_from_file('METAL GEAR SOLID2.exe', 'MGS_Font_nht.raw.gz', 8725520, 969470) # old address is 8725008, updated for Ver.2.1.0
     if os.path.exists("MGS_Font_nht.raw.gz"):
         decompress_with_7z("MGS_Font_nht.raw.gz")
 
 def run_extractmgs3_gzip():
-    extract_gzip_from_file('METAL GEAR SOLID3.exe', 'MGS_Font_nht.raw.gz', 10283248, 983133)
+    extract_gzip_from_file('METAL GEAR SOLID3.exe', 'MGS_Font_nht.raw.gz', 10292976, 983133) # old address is 10283248, updated for Ver.3.0.0
     if os.path.exists("MGS_Font_nht.raw.gz"):
         decompress_with_7z("MGS_Font_nht.raw.gz")
     
@@ -266,7 +266,7 @@ def run_importmgs2_gzip():
         return
 
     if compress_with_7z(raw_path, gz_path):
-        overwrite_gzip_to_file('METAL GEAR SOLID2.exe', gz_path, 8725008, 969470)
+        overwrite_gzip_to_file('METAL GEAR SOLID2.exe', gz_path, 8725520, 969470) # old address is 8725008, updated for Ver.2.1.0
 
 def run_importmgs3_gzip():
     raw_path = "MGS_Font_nht.raw"
@@ -277,7 +277,7 @@ def run_importmgs3_gzip():
         return
 
     if compress_with_7z(raw_path, gz_path):
-        overwrite_gzip_to_file('METAL GEAR SOLID3.exe', gz_path, 10283248, 983133)
+        overwrite_gzip_to_file('METAL GEAR SOLID3.exe', gz_path, 10292976, 983133) # old address is 10283248, updated for Ver.3.0.0
 
 
 # --- GUI Setup ---
